@@ -17,6 +17,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 builds the optimized test version
 
+## Demo:
+www.sutri.fun
+
 ## Changelog:
 
 ### version 0.5.3
