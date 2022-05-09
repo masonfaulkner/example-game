@@ -1,0 +1,54 @@
+.Die {
+  font-size: 8.2em;
+  background: white;
+  color: rgb(205, 90, 100);
+  border-radius: 100px;
+  line-height: 69px;
+  margin-left: 0.1em;
+  align-self: center;
+  margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 400px) {
+  .Die {
+    font-size: 7em;
+  }
+}
+
+.shaking {
+  animation-name: wobble;
+  animation-duration: 2s;
+}
+
+@keyframes wobble {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    transform: translate3d(-65%, 0, 0) rotate3d(0, 0, 1, -20deg);
+  }
+
+  30% {
+    transform: translate3d(50%, 0, 0) rotate3d(0, 0, 1, 18deg);
+  }
+
+  45% {
+    transform: translate3d(-45%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    transform: translate3d(30%, 0, 0) rotate3d(0, 0, 1, 5deg);
+  }
+
+  75% {
+    transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -4deg);
+  }
+  90% {
+    transform: translate3d(8%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,51 @@
+.app {
+  margin: 20px;
+}
+@import url(
+  https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300
+);
+body {
+  padding: 20px 80px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  margin-top: 10%;
+  margin-left: 45%;
+}
+
+.spinner-actual {
+  width: 50px !important;
+  height: 50px !important;
+}

@@ -1,0 +1,74 @@
+.RollDice {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 50vh;
+}
+.RollDice-container {
+  /*display: flex;*/
+  justify-content: center;
+  align-content: center;
+}
+.RollDice button {
+  align-self: center;
+  width: 15em;
+  padding: 1.5em;
+  font-size: 1.5em;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(8, 199, 8);
+  margin-bottom: 1em;
+}
+.spacer {
+  margin-bottom: 6em;
+}
+.totalDice {
+  font-size: 1.5em !important;
+  text-align: right;
+  margin-top: 1em;
+  margin-right: 1em;
+  color: black;
+}
+@media screen and (max-width: 400px) {
+  .spacer {
+    margin-bottom: 4em;
+  }
+  .totalDice {
+    margin-top: -1.5em;
+  }
+}
+
+.trashIcon {
+  padding: 0.5em;
+  font-size: 6em;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.RollDice .resetButton {
+  background-color: black;
+  padding: 0.5em;
+}
+
+.RollDice button:hover {
+  background-color: darkslateblue;
+  cursor: pointer;
+}
+.highlighted .box {
+  transform: scale(1.5);
+}
+.RollDice .center-modal {
+  align-self: center;
+}
+.RollDice .yes-button {
+  background-color: rgb(8, 199, 8);
+  padding: 0.5em;
+  margin-right: 20px;
+  width: 3em;
+}
+.RollDice .no-button {
+  background-color: rgb(240, 56, 50);
+  padding: 0.5em;
+  margin-right: 20px;
+  width: 3em;
+}
